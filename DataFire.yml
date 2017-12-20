@@ -2,3 +2,7 @@ options:
   cors: true
 actions:
   action: ./actions/action.js
+paths:
+  /hello:
+    get:
+      action: action
